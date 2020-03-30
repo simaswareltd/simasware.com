@@ -1,5 +1,4 @@
 FROM httpd:2.4.41
+COPY ./public-site/ /usr/local/apache2/htdocs/
 
-#COPY ./public-html/ /usr/local/apache2/htdocs/
-
-# Version 5
+# Version 10
