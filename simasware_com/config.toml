@@ -12,9 +12,9 @@ theme = "nix"
   ProfilePicture = "Sotiraki-Sima-1.jpg"
   LinkedInID = "sotirakisima"
   GithubID = "simaswareltd"
-[menu]
-  [[menu.header]]
-    name = "posts"
-    weight = 0
-    url = "/posts"
+#[menu]
+#  [[menu.header]]
+#    name = "posts"
+#    weight = 0
+#    url = "/posts"
 #Data must impose changes, and user experience will drive adoption.
