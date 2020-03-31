@@ -1,5 +1,3 @@
 # simasware.com
 
-Public WebSite SimasWare LTD
-
-Sotiraki Sima
+Public WebSite [SimasWare LTD](https://simasware.com) by Sotiraki Sima
