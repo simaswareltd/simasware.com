@@ -13,12 +13,24 @@
     
     <item>
       <title>DevSecOps principles</title>
-      <link>https://simasware.com/post/</link>
+      <link>https://simasware.com/devsecops/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simasware.com/post/</guid>
+      <guid>https://simasware.com/devsecops/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>OneFirewall Alliance LTD</title>
+      <link>https://simasware.com/onefirewall/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simasware.com/onefirewall/</guid>
+      <description>The human specie across the years developed a natural filter to protect themself against threats, this engine work by accumulating data of our souranding and we build the risk profile against actors that we interact.
+Past attacks indicates higher probability of new attakcs, therefore the natural reaction of a human is to
+OneFirewall .
+  This document is a brief primer on using go templates. The go docs provide more details.</description>
     </item>
     
   </channel>
