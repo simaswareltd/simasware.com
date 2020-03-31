@@ -8,9 +8,13 @@ theme = "nix"
   Name = "SimasWare"
   HeaderUsername = "root"
   HeaderHostname = "server0"
-  About = "Sotiraki Sima is Executive Director in Technology Risk at Goldman Sachs, co-founder of OneFirewall Alliance and former Cyber Security Advisor,  prior to that Sotiraki led the Global Application Security in Barclays Bank PLC. His professional expertise is tracked on automated Security Controls in modern Software Development Lifecycles with particular focus in implementations of DevSecOps practices in big scale organisations."
+  About = "Sotiraki Sima, Executive Director in Technology Risk at Goldman Sachs, co-founder of OneFirewall Alliance and former Cyber Security Advisor,  prior to that Sotiraki led the Global Application Security in Barclays Bank PLC. His professional expertise is tracked on automated Security Controls in modern Software Development Lifecycles with particular focus in implementations of DevSecOps practices in big scale organisations."
   ProfilePicture = "Sotiraki-Sima-1.jpg"
   LinkedInID = "sotirakisima"
   GithubID = "simaswareltd"
-
-#Data must impose changes, and user experience should drive adoptions in technology disciplines.
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
+#Data must impose changes, and user experience will drive adoption.
