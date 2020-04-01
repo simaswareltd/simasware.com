@@ -26,7 +26,7 @@ similarities in go templates.
 This document is a brief primer on using go templates. The [go docs][gohtmltemplate]
 provide more details.
 
-## Introduction to Go Templates
+## Software Composition Analysis (SCA)
 
 Go templates provide an extremely simple template language. It adheres to the
 belief that only the most basic of logic belongs in the template or view layer.
@@ -36,10 +36,38 @@ A unique characteristic of go templates is they are content aware. Variables and
 content will be sanitized depending on the context of where they are used. More
 details can be found in the [go docs][gohtmltemplate].
 
-## Basic Syntax
+## Static Application Security Testing (SAST)
+
+Go lang templates are html files with the addition of variables and
+functions.
+
+### Secret Scanning
+
+Go lang templates are html files with the addition of variables and
+functions.
+
+## Dynamic Application Security Testing (DAST)
 
 Go lang templates are html files with the addition of variables and
 functions. 
+
+### Fuzzing
+d
+
+### Dynamic Scanning
+s
+
+## Interactive Application Security Testing (IAST)
+
+Go lang templates are html files with the addition of variables and
+functions. 
+
+## Runtime Application Self Protection (RASP)
+s
+
+Go lang templates are html files with the addition of variables and
+functions. 
+
 
 **Go variables and functions are accessible within {{ }}**
 
