@@ -5,7 +5,7 @@ title = "SimasWare LTD"
 theme = "nix"
 
 [params]
-  Name = "SimasWare"
+  Name = "Sotiraki Sima"
   HeaderUsername = "root"
   HeaderHostname = "server0"
   About = "Sotiraki Sima, Executive Director in Technology Risk at Goldman Sachs, co-founder of OneFirewall Alliance and former Cyber Security Advisor,  prior to that Sotiraki led the Global Application Security in Barclays Bank PLC. His professional expertise is tracked on automated Security Controls in modern Software Development Lifecycles with particular focus in implementations of DevSecOps practices in big scale organisations."
@@ -14,11 +14,33 @@ theme = "nix"
   GithubID = "simaswareltd"
 [menu]
   [[menu.header]]
-    name = "DevSecOps"
+    identifier = "post"
+    name = "posts"
     weight = 0
-    url = "/devsecops"
+    url = "/"
   [[menu.header]]
-    name = "OneFirewall"
+    parent = "post"
+    name = "Dev-Sec-Ops"
+    url = "/Dev-Sec-Ops"
+  [[menu.header]]
+    parent = "post"
+    name = "Secret-Scanner"
+    url = "/Secret-Scanner"
+  [[menu.header]]
+    identifier = "projects"
+    name = "projects"
     weight = 0
+    url = "/"
+  [[menu.header]]
+    parent = "projects"
+    name = "OneFirewall"
     url = "/onefirewall"
-#Data must impose changes, and user experience will drive adoption.
+  [[menu.header]]
+    parent = "projects"
+    name = "secret-shark"
+    url = "/secret-shark"
+  [[menu.header]]
+    parent = "projects"
+    name = "vuln-app"
+    url = "/vuln-app"
+

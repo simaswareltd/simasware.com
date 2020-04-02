@@ -13,12 +13,12 @@
     
     <item>
       <title>DevSecOps principles</title>
-      <link>https://simasware.com/devsecops/</link>
+      <link>https://simasware.com/dev-sec-ops/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simasware.com/devsecops/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>https://simasware.com/dev-sec-ops/</guid>
+      <description>TBD
+Software Composition Analysis (SCA)    Software libraries Application Components Operating System Components Static Application Security Testing (SAST)    Secret Scanning    Dynamic Application Security Testing (DAST)    Fuzzing    Dynamic Scanning    Interactive Application Security Testing (IAST)    Runtime Application Self Protection (RASP)    </description>
     </item>
     
     <item>
@@ -27,10 +27,34 @@ This document is a brief primer on using go templates.</description>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://simasware.com/onefirewall/</guid>
-      <description>The human specie across the years developed a natural filter to protect themself against threats, this engine work by accumulating data of our souranding and we build the risk profile against actors that we interact.
-Past attacks indicates higher probability of new attakcs, therefore the natural reaction of a human is to
-OneFirewall .
-  This document is a brief primer on using go templates. The go docs provide more details.</description>
+      <description>The human specie across the years developed a natural filter to protect themself against threats, this engine works by accumulating data of our souranding, then we use these data to build a risk profile against actors that we interact. Past attacks indicates higher probability of risk from the same actor, therefore the natural reaction of a human is to prevent interaction of any kind, and this is calibrated based on the gains versus the risks.</description>
+    </item>
+    
+    <item>
+      <title>Secret Scanner</title>
+      <link>https://simasware.com/secret-scanner/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simasware.com/secret-scanner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secret Shark</title>
+      <link>https://simasware.com/secret-shark/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simasware.com/secret-shark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vulnerable Application</title>
+      <link>https://simasware.com/vuln-app/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simasware.com/vuln-app/</guid>
+      <description></description>
     </item>
     
   </channel>
