@@ -27,7 +27,16 @@ Software Composition Analysis (SCA)    Software libraries Application Components
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://simasware.com/onefirewall/</guid>
-      <description>The human specie across the years developed a natural filter to protect themself against threats, this engine works by accumulating data of our souranding, then we use these data to build a risk profile against actors that we interact. Past attacks indicates higher probability of risk from the same actor, therefore the natural reaction of a human is to prevent interaction of any kind, and this is calibrated based on the gains versus the risks.</description>
+      <description>The human species across the years developed a natural filter to protect themself against threats, this engine works by accumulating data of our souranding, then we use these data to build a risk profile against actors that we interact. Past attacks indicates higher probability of risk from the same actor, therefore the natural reaction of a human is to prevent interaction of any kind, and this is calibrated based on the gains versus the risks.</description>
+    </item>
+    
+    <item>
+      <title>OneFirewall Data Report1</title>
+      <link>https://simasware.com/onefirewall-report/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simasware.com/onefirewall-report/</guid>
+      <description>d   OneFirewall Latest Reports body, html { font-family: sans-serif; }     OneFirewall Latest Reports  function onload(){ console.log(1) return jQuery.ajax({ url: &#39;http://localhost:3000/api/v1/last_day_data&#39;, datatype: &#39;json&#39;, contentType: &#34;application/json; charset=utf-8&#34;, type: &#39;get&#39;, success: function (msg) { load_chart(msg) }, error: function (msg) { alert(&#34;error :( &#34;) } }); } function load_chart(msg){ var container = document.getElementById(&#39;visualization&#39;); var dataset = new vis.DataSet(msg.items); var graph2d = new vis.Graph2d(container, dataset, msg.options); }    </description>
     </item>
     
     <item>

@@ -37,6 +37,10 @@ theme = "nix"
     url = "/onefirewall"
   [[menu.header]]
     parent = "projects"
+    name = "OneFirewall-report"
+    url = "/onefirewall-report"
+  [[menu.header]]
+    parent = "projects"
     name = "secret-shark"
     url = "/secret-shark"
   [[menu.header]]
