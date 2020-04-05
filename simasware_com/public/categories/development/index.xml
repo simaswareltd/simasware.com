@@ -6,10 +6,19 @@
     <description>Recent content in Development on SimasWare LTD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://simasware.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OneFirewall Data Report1</title>
+      <link>https://simasware.com/onefirewall-report/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simasware.com/onefirewall-report/</guid>
+      <description>   OneFirewall Latest Reports body, html { font-family: sans-serif; }      function onload(){ console.log(1) msg = {&#34;options&#34;:{&#34;start&#34;:&#34;2020-04-03T00:47:17&#34;,&#34;end&#34;:&#34;2020-04-05T21:47:17&#34;},&#34;items&#34;:[{&#34;x&#34;:&#34;2020-04-03T00:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-03T03:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-03T06:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-03T09:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-03T12:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-03T15:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-03T18:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-03T21:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-04T00:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-04T03:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-04T06:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-04T09:47:17&#34;,&#34;y&#34;:0,&#34;label&#34;:{&#34;content&#34;:0}},{&#34;x&#34;:&#34;2020-04-04T12:47:17&#34;,&#34;y&#34;:2,&#34;label&#34;:{&#34;content&#34;:2}},{&#34;x&#34;:&#34;2020-04-04T15:47:17&#34;,&#34;y&#34;:11,&#34;label&#34;:{&#34;content&#34;:11}},{&#34;x&#34;:&#34;2020-04-04T18:47:17&#34;,&#34;y&#34;:8,&#34;label&#34;:{&#34;content&#34;:8}},{&#34;x&#34;:&#34;2020-04-04T21:47:17&#34;,&#34;y&#34;:19020,&#34;label&#34;:{&#34;content&#34;:19020}},{&#34;x&#34;:&#34;2020-04-05T00:47:17&#34;,&#34;y&#34;:158964,&#34;label&#34;:{&#34;content&#34;:158964}},{&#34;x&#34;:&#34;2020-04-05T03:47:17&#34;,&#34;y&#34;:3,&#34;label&#34;:{&#34;content&#34;:3}},{&#34;x&#34;:&#34;2020-04-05T06:47:17&#34;,&#34;y&#34;:76,&#34;label&#34;:{&#34;content&#34;:76}},{&#34;x&#34;:&#34;2020-04-05T09:47:17&#34;,&#34;y&#34;:3,&#34;label&#34;:{&#34;content&#34;:3}},{&#34;x&#34;:&#34;2020-04-05T12:47:17&#34;,&#34;y&#34;:2,&#34;label&#34;:{&#34;content&#34;:2}},{&#34;x&#34;:&#34;2020-04-05T15:47:17&#34;,&#34;y&#34;:8,&#34;label&#34;:{&#34;content&#34;:8}},{&#34;x&#34;:&#34;2020-04-05T18:47:17&#34;,&#34;y&#34;:5,&#34;label&#34;:{&#34;content&#34;:5}},{&#34;x&#34;:&#34;2020-04-05T21:47:17&#34;,&#34;y&#34;:113936,&#34;label&#34;:{&#34;content&#34;:113936}}]} load_chart(msg) } function load_chart(msg){ var container = document.getElementById(&#39;visualization&#39;); var dataset = new vis.DataSet(msg.items); var graph2d = new vis.Graph2d(container, dataset, msg.options); }    </description>
+    </item>
     
     <item>
       <title>DevSecOps principles</title>
@@ -28,15 +37,6 @@ Software Composition Analysis (SCA)    Software libraries Application Components
       
       <guid>https://simasware.com/onefirewall/</guid>
       <description>The human species across the years developed a natural filter to protect themself against threats, this engine works by accumulating data of our souranding, then we use these data to build a risk profile against actors that we interact. Past attacks indicates higher probability of risk from the same actor, therefore the natural reaction of a human is to prevent interaction of any kind, and this is calibrated based on the gains versus the risks.</description>
-    </item>
-    
-    <item>
-      <title>OneFirewall Data Report1</title>
-      <link>https://simasware.com/onefirewall-report/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://simasware.com/onefirewall-report/</guid>
-      <description>d   OneFirewall Latest Reports body, html { font-family: sans-serif; }     OneFirewall Latest Reports  function onload(){ console.log(1) return jQuery.ajax({ url: &#39;http://localhost:3000/api/v1/last_day_data&#39;, datatype: &#39;json&#39;, contentType: &#34;application/json; charset=utf-8&#34;, type: &#39;get&#39;, success: function (msg) { load_chart(msg) }, error: function (msg) { alert(&#34;error :( &#34;) } }); } function load_chart(msg){ var container = document.getElementById(&#39;visualization&#39;); var dataset = new vis.DataSet(msg.items); var graph2d = new vis.Graph2d(container, dataset, msg.options); }    </description>
     </item>
     
     <item>

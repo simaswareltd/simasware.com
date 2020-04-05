@@ -114,11 +114,9 @@
 
         <div class="container wrapper">
             <h1><a href="https://simasware.com/onefirewall-report/">OneFirewall Data Report1</a></h1>
-            <span class="post-date">2020-03-31 </span>
+            <span class="post-date">2020-04-05 </span>
             <div class="post-content">
-                <p>d
-
-
+                
 
 <!DOCTYPE HTML>
 <html>
@@ -139,27 +137,15 @@
   <link href="https://visjs.github.io/vis-timeline/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body onload="onload()">
-<h2>OneFirewall Latest Reports</h2>
 
-<br />
 <div id="visualization"></div>
 
 <script type="text/javascript">
     function onload(){
         console.log(1)
-        return
-        jQuery.ajax({
-                    url: 'http://localhost:3000/api/v1/last_day_data',
-                    datatype: 'json',
-                    contentType: "application/json; charset=utf-8",
-                    type: 'get',
-                    success: function (msg) {
-                        load_chart(msg)
-                    },
-                    error: function (msg) {
-                        alert("error :( ")
-                    }
-                });
+        msg = {"options":{"start":"2020-04-03T00:47:17","end":"2020-04-05T21:47:17"},"items":[{"x":"2020-04-03T00:47:17","y":0,"label":{"content":0}},{"x":"2020-04-03T03:47:17","y":0,"label":{"content":0}},{"x":"2020-04-03T06:47:17","y":0,"label":{"content":0}},{"x":"2020-04-03T09:47:17","y":0,"label":{"content":0}},{"x":"2020-04-03T12:47:17","y":0,"label":{"content":0}},{"x":"2020-04-03T15:47:17","y":0,"label":{"content":0}},{"x":"2020-04-03T18:47:17","y":0,"label":{"content":0}},{"x":"2020-04-03T21:47:17","y":0,"label":{"content":0}},{"x":"2020-04-04T00:47:17","y":0,"label":{"content":0}},{"x":"2020-04-04T03:47:17","y":0,"label":{"content":0}},{"x":"2020-04-04T06:47:17","y":0,"label":{"content":0}},{"x":"2020-04-04T09:47:17","y":0,"label":{"content":0}},{"x":"2020-04-04T12:47:17","y":2,"label":{"content":2}},{"x":"2020-04-04T15:47:17","y":11,"label":{"content":11}},{"x":"2020-04-04T18:47:17","y":8,"label":{"content":8}},{"x":"2020-04-04T21:47:17","y":19020,"label":{"content":19020}},{"x":"2020-04-05T00:47:17","y":158964,"label":{"content":158964}},{"x":"2020-04-05T03:47:17","y":3,"label":{"content":3}},{"x":"2020-04-05T06:47:17","y":76,"label":{"content":76}},{"x":"2020-04-05T09:47:17","y":3,"label":{"content":3}},{"x":"2020-04-05T12:47:17","y":2,"label":{"content":2}},{"x":"2020-04-05T15:47:17","y":8,"label":{"content":8}},{"x":"2020-04-05T18:47:17","y":5,"label":{"content":5}},{"x":"2020-04-05T21:47:17","y":113936,"label":{"content":113936}}]}
+        load_chart(msg)
+         
     }
 
     function load_chart(msg){
@@ -174,7 +160,7 @@
 
 
 
-</p>
+
 
             </div>
             
