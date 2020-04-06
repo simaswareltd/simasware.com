@@ -52,8 +52,8 @@ menu = "main"
               data = new vis.DataSet();
               data.add(msg)
               var options = {
-                width:  '900px',
-                height: '800px',
+                width:  '90%',
+                height: '400px',
                 style: 'dot-size',
                 xLabel: "IPv4",
                 zLabel: "OneFirewall Crime-Score",
