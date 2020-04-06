@@ -1,5 +1,5 @@
 +++
-title = "OneFirewall Data Report1"
+title = "OneFirewall - Threat Feeds last 3 days"
 description = ""
 tags = [
     "go",
