@@ -53,9 +53,10 @@ menu = "main"
               data.add(msg)
               var options = {
                 width:  '90%',
-                height: '400px',
+                height: '800px',
                 style: 'dot-size',
                 xLabel: "IPv4",
+                yLabel: "Time",
                 zLabel: "OneFirewall Crime-Score",
                 showPerspective: false,
                 showShadow: true,
